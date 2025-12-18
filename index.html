@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Kiro's & Garfield's</title>
+
+	<link rel="stylesheet" href="estilos.css">
+
+	<!--FONTS DE GOOGLE-->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+	<!--CARRUSEL DE IMGS-->
+	<!--<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" defer></script>-->
+
+	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+		defer></script>
+
+
+</head>
+
+<body>
+	<header class="jsTamañoTop">
+		<div class="logo-container">
+			<h1><a href="#"><img src="https://i.postimg.cc/LhKJdqPQ/BCO_bc2453b0_2ac7_4337_b585_44d93388aa09.png"
+						alt="Logotipo" class="logo"></a></h1>
+		</div>
+		<nav>
+			<ul class="menu-nav">
+				<li>
+					<a href="#sec-nosotros">
+						<p>Nosotros</p>
+					</a>
+				</li>
+				<li class="menu-servicios">
+					<a href="#sec-encontrarnos">
+						<p>Servicios</p>
+					</a>
+					<ul class="submenu-servicios">
+						<li>
+							<a href="#sec-encontrarnos">
+								<p>Encuéntranos</p>
+							</a>
+						</li>
+						<li>
+							<a href="#sec-productos">
+								<p>
+									<p>Productos
+									<p></p>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#empleados">
+						<p>Empleados</p>
+					</a>
+				</li>
+				<li>
+					<a href="#sec-formulario">
+						<p>Contacto</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="botonOculta"><img src="https://i.postimg.cc/FF3vHnXN/mano_ocultar.png"
+				alt="Ocultar/ mostrar menú" title="Ocultar menú"></button>
+	</header>
+	<main>
+		<section id="menu-popup" class="js-popUp-invisible">
+			<div class="popup-info-articulo">
+				<div class="popup-info-articulo-texto">
+					<p class="popup-info-titulo">Café con leche</p>
+					<p class="popup-info-bold">
+						Miau… ¿buscas un abrazo calentito en forma de bebida?
+						Déjame contarte, con mis patitas bien juntas, por qué un café con leche podría ser tu próximo
+						ronroneo favorito.
+					</p>
+					<p class="popup-info-principal">
+						Imagínate una taza humeante donde el café recién hecho se mezcla suavemente con leche cremosa,
+						creando un aroma cálido que invita a acercar la naricita. Suave, equilibrado y reconfortante, es
+						perfecto para empezar el día con energía o para mimarte en una pausa. Cada sorbo es como un mimo
+						en la oreja: dulce, calentito… y totalmente irresistible. Miau.
+					</p>
+				</div>
+				<img src="https://picsum.photos/1000/1000" alt="Kiro te ofrece un café">
+			</div>
+		</section>
+		<section id="sec-carrusel">
+			<div class="swiffy-slider slider-item-ratio slider-item-ratio-16x9 slider-item-nogap slider-nav-square slider-nav-autoplay slider-nav-autopause slider-nav-animation-fadein"
+				data-slider-nav-autoplay-interval="5000">
+
+				<ul class="slider-container">
+					<li><img src="https://i.postimg.cc/05DvyH1w/Sin_título_4.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/2jhYSXNF/Sin_título_1.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/3rmhxbQm/Sin_título_3.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/3rmhxbQ0/Sin_título_5.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/qByrvZHs/Sin_título_2.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/sf7zg0CB/Sin_título_6.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/DfLhwY30/Sin_título_7.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/66nKp1xQ/Sin_título_8.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+					<li><img src="https://i.postimg.cc/ryxTwY2y/Sin_título_9.png" loading="lazy" alt="Imagen de muestra de la cafetería"></li>
+				</ul>
+
+				<button class="slider-nav"></button>
+				<button class="slider-nav slider-nav-next"></button>
+
+				<div class="slider-indicators">
+					<button></button><button></button><button></button>
+					<button></button><button></button><button></button>
+					<button></button><button></button><button></button>
+				</div>
+			</div>
+		</section>
+		<div class="wrap-de-pagina">
+			<section id="sec-nosotros">
+				<article class="art-nosotros">
+					<h2 class="titulo-articulo">Sobre nosotros</h2>
+					<p class="subtitulo-articulo">Abiertos desde 1999</p>
+					<div class="info-articulo">
+						<div class="info-articulo-texto">
+							<q class="info-titulo"><cite>Kiro: </cite>"¡Somos tu michi-cafetería de referencia!"</q>
+							<p class="info-bold">Somos dos mininos cafetaleros que dejamos atrás las siestas largas para traer al mundo el mejor café y caricias aromáticas en cada taza. Bienvenido a nuestro rinconcito donde los bigotes se sienten como en casa.
+							</p>
+							<p class="info-principal">
+								Miau… somos Kiro y Garfield, dos gatos curiosos que un día nos dijimos: ¿y si hacemos una cafetería donde cada sorbo sea como un mimo en la espalda? Desde entonces, hemos afinado nuestras patitas para preparar cafés humeantes, suaves, dulces o intensos — siempre con el corazón felino. Aquí no solo encontrarás café delicioso, sino también ronroneos amistosos y un lugar que huele a hogar.
+							</p>
+						</div>
+						<img src="https://i.postimg.cc/4nkYCKcS/92acab25_8aec_466d_9160_7d7fb1303b99.png"
+							alt="Kiro te ofrece un café" title="Un cafecito? Miau!">
+					</div>
+				</article>
+			</section>
+			<section id="sec-encontrarnos">
+				<article class="art-encontrarnos">
+					<h2 class="titulo-articulo">Servicios</h2>
+					<p class="subtitulo-articulo">Dónde encontrarnos</p>
+					<div class="info-articulo">
+						<div class="info-articulo-texto">
+							<q class="info-titulo"><cite>Garfield: </cite>"Es muy fácil encontrarnos (menos los
+								lunes)"</q>
+							<p class="info-bold">Un acogedor escondite gatuno en un rincón soleado y fácil de encontrar, donde siempre hay un lugar para ti (y para tu siesta después del café).
+							</p>
+							<p class="info-principal">
+								Miau… nuestra cafetería está ubicada en un sitio estratégico donde el sol acaricia la ventana y el viento trae aroma de flores y charla tranquila. No te preocupes por los detalles exactos: ven, sigue el sonido de un “mrrr…” amistoso y verás una taza esperándote. Aquí, entre cojines mullidos y el aroma a granos tostados, es fácil encontrar paz, cafés perfectos y compañía ronroneante.
+							</p>
+						</div>
+						<div class="mapaEncontrarnos">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1264.7739200408812!2d-2.914392663313003!3d43.25797502708384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fb46238d865%3A0xb671edfb1120ab06!2sIpartek%20Servicios%20Inform%C3%A1ticos!5e0!3m2!1ses!2ses!4v1765873095190!5m2!1ses!2ses"
+								allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<span>Ubícanos, miau! :3</span>
+						</div>
+					</div>
+
+				</article>
+			</section>
+			<section id="sec-productos">
+				<h2 class="titulo-articulo">Servicios</h2>
+				<p class="subtitulo-articulo">Nuestros cafés</p>
+				<div class="div-imgs">
+					<ul class="lista-productos">
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/XNZx0TFV/café_con_leche.png" alt="Café con leche"
+									title="Click para más información">
+
+								<span class="span-nombre-cafe">Café con leche</span>
+							</div>
+							<p>
+								Un abrazo cálido en forma de taza, como cuando te acurrucas entre mantas calentitas.<br>Miau… este es el café que hace que tus bigotes se estiren de gusto. Suave mezcla de espresso y leche cremosa, acariciando tu paladar desde el primer sorbo. Ideal para despertar con energía o para esa siesta post-café que tanto ansías.</p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/wxLzjbYq/café_capuccino_editado.png" alt="Capuchino"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Capuchino</span>
+							</div>
+							
+							<p> Espuma esponjosa que parece la nube perfecta para estirarse después de comer.<br>Mmm… un balance felino de espresso cremoso coronado con espuma de leche ligera. Cada sorbo es como saltar de sofá en sofá, explorando texturas y aromas hasta encontrar el rincón perfecto para descansar. </p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/5jdXcHz3/café_bombón.png" alt="Café bombón"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Café bombón</span>
+							</div>
+							
+							<p> Dulce y seductor… como ese pedacito de queso que siempre guardas en secreto.<br> Miau… café intenso unido al dulce abrazo de leche condensada. No es solo un café, es un capricho que ronronea en tu paladar. Perfecto para esos momentos en que quieres algo travieso y delicioso.
+							</p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/mhfPxc9K/café_macciato.png" alt="Macchiato"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Macchiato</span>
+							</div>
+							
+							<p> Un toque travieso de leche sobre un espresso fuerte — como rozar tu patita en el borde de la taza.<br>Este café es audaz, con personalidad. El espresso profundo se encuentra con solo un toque de leche espumada. Como cuando te asomas sigiloso a la ventana: intrigante y encantador. </p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/WtLdRDZ8/café_americano.png" alt="Expresso"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Expresso</span>
+							</div>
+							
+							<p>Energía concentrada, como un salto felino desde la silla a la mesa.<br>Miau… pequeño pero poderoso. Un sorbo fuerte que despierta hasta al gato más dormilón. Intenso, aromático y directo al corazón (como un cabezazo adorable).</p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/grFx9whS/BCO_9b75edc8_328a_402e_9e4c_6b45f4159003.png"
+								alt="Frape" title="Click para más información">
+								<span class="span-nombre-cafe">Frappe</span>
+							</div>
+							
+							<p>Una caricia fría para esos días de calor, con espuma que hace querer sacarles bigotes.<br>Miau… hielo, café, dulzura y leche se mezclan en un ronroneo refrescante. Como un salto a los azulejos fríos en verano, pero con sabor que invita a quedarse.</p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/YjKvc4Fd/café_mocha.png" alt="Café mocha"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Café mocha</span>
+							</div>
+							
+							<p>Chocolate y café juntos… como leche y croquetas, simplemente perfectos.<br>Un espresso profundo abrazado por chocolate y leche cremosa. Dulce y robusto, es como ronronear bajo una manta suave mientras disfrutas de un bocadito celestial.</p>
+						</li>
+						<li>
+							<div class="producto-img">
+								<img src="https://i.postimg.cc/QVGFLB7q/café_irlandés.png" alt="Café irlandés"
+								title="Click para más información">
+								<span class="span-nombre-cafe">Café irlandés</span>
+							</div>
+							
+							<p>Un abrazo calentito con un toque travieso y burbujeante.<br>Este café no solo despierta, también calienta el alma. Espresso fuerte, un chorrito de licor, y crema suave — como si el sol y la luna se encontraran para darte cariño en una sola taza. </p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id = "empleados">
+				<h2 class="titulo-articulo">Empleados</h2>
+				<p class="subtitulo-articulo">Conoce a nuestros michi-currantes</p>
+				<div class = "fotos-empleados">
+					<figure class="polaroid">
+						<img src="https://i.postimg.cc/pTjWkNQ7/BCO_7383aed7_caa3_41da_a2d3_8c185ec41add.png" alt="Imagen Kiro" class = "imgKiro">
+						<figcaption>Kiro</figcaption>
+					</figure>
+					<figure class="polaroid">
+						<img src="https://i.postimg.cc/85vpw8dY/BCO_f0dab0dc_6622_4d46_b2e3_b4ea48e2d2a0.png" alt="Imagen Kiro" class = "imgKiro">
+						<figcaption>Garfield</figcaption>
+					</figure>
+				</div>
+				
+			</section>
+			<section id="sec-formulario">
+				<h2 class="titulo-articulo">Contacto</h2>
+				<p class="subtitulo-articulo">Escríbenos</p>
+				<form class="form-contacto" method="post">
+					<div class="form-grupo-nombre-apellido">
+						<div class="form-grupo">
+							<label for="nombre">Nombre: *</label>
+							<input type="text" id="nombre" name="nombre" required>
+						</div>
+
+						<div class="form-grupo">
+							<label for="apellido">Apellido:</label>
+							<input type="text" id="apellido" name="apellido">
+						</div>
+					</div>
+
+
+					<div class="form-grupo">
+						<label for="email">Email: *</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+
+					<div class="form-grupo">
+						<label for="mensaje">Mensaje: *</label>
+						<textarea id="mensaje" name="mensaje" maxlength="500" required></textarea>
+					</div>
+
+					<div class="form-grupo-check">
+						<input type="checkbox" id="acuerdo" name="acuerdo" required>
+						<label for="acuerdo">Acepto el acuerdo de usuario *</label>
+					</div>
+
+					<div class="form-grupo">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+			</section>
+		</div>
+		<footer>
+			<p>© 2025 Kiro's & Garfield's. Todos los derechos reservados.</p>
+		</footer>
+	</main>
+
+	<script src="index-js.js"></script>
+
+</body>
+
+</html>
